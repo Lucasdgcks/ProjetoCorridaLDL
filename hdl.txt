@@ -1,0 +1,3 @@
+Dados sobre HDL
+marcelo = hdl 41.0
+lucas = 57.0
