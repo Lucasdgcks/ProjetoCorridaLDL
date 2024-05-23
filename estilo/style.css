@@ -167,6 +167,13 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
      
 }
+img{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    max-width: 100%;
+}
 #principal{
     background-image: url(../imagens/heart.png);
    background-size: contain;
