@@ -27,6 +27,7 @@
                         <th class="emoji" style="width: 80px;">&#11088;</th>
                         <th scope="col">Nome</th>
                         <th scope="col" style="width: 50px;">mg / dL</th>
+                        <th class="porcentagem" scope="col">Porcentagem de Variação</th>
                         <th id="data" scope="col">Ultima Atualização</th>
                         <th scope="col">PDF</th>
                     </tr>
@@ -36,6 +37,7 @@
                         <td class="emoji" data-label="Classificação">&#128081; 1°</td>
                         <td data-label="Nome">Marcelo</td>
                         <td class="num" data-label="mg / dL">90.5</td>
+                        <td class="porcentagem">&#128313 % 0.0</td>
                         <td class="data" data-label="Ultima Atualização">20/04/2024</td>
                         <td class="arquivo" data-label="PDF"><a href="">🩸</a></td>
                     </tr>
@@ -43,20 +45,23 @@
                         <td class="emoji" data-label="Classificação">🥈 2°</td>
                         <td data-label="Nome">Carla</td>
                         <td class="num" data-label="mg / dL">173.5</td>
+                        <td class="porcentagem">&#128313 % 0.0</td>
                         <td class="data" data-label="Ultima Atualização">20/02/2024</td>
                         <td class="arquivo" data-label="PDF"><a href="">🩸</a></td>
                     </tr>
                     <tr>
                         <td class="emoji" data-label="Classificação">🥉 3°</td>
                         <td data-label="Nome">Lucas</td>
-                        <td class="num" data-label="mg / dL">178.1</td>
-                        <td class="data" data-label="Ultima Atualização">03/11/2023</td>
-                        <td class="arquivo" data-label="PDF"><a href="https://github.com/Lucasdgcks/ProjetoCorridaLDL/blob/main/dowloads/Resultado_LAB.%20DNA%20CENTER_3657058747630%20(1).pdf" target="_blank">🩸</a></td>
+                        <td class="num" data-label="mg / dL">194.6</td>
+                        <td class="porcentagem">&#128314 % 9.3</td>
+                        <td class="data" data-label="Ultima Atualização">01/06/2024</td>
+                        <td class="arquivo" data-label="PDF"><a href="https://github.com/Lucasdgcks/ProjetoCorridaLDL/blob/main/dowloads/LucasDNA02" target="_blank">🩸</a></td>
                     </tr>
                     <tr>
                         <td class="emoji" data-label="Classificação">&#128657; 4°</td>
                         <td data-label="Nome">Gabriel</td>
                         <td class="num" data-label="mg / dL">196.0</td>
+                        <td class="porcentagem">&#128313 % 0.0</td>
                         <td class="data" data-label="Ultima Atualização">??/??/2023</td>
                         <td class="arquivo" data-label="PDF"><a href="">🩸</a></td>
                     </tr>
@@ -64,6 +69,7 @@
                         <td class="emoji" data-label="Classificação">&#128128; 5°</td>
                         <td data-label="Nome">Rafael</td>
                         <td class="num" data-label="mg / dL">210.0</td>
+                        <td class="porcentagem">&#128313 % 0.0</td>
                         <td class="data" data-label="Ultima Atualização">??/??/2021</td>
                         <td class="arquivo" data-label="PDF"><a href="">🩸</a></td>
                     </tr>
@@ -71,27 +77,39 @@
             </table>
         </div>
     <section class="conteudo">
-        <div id="conteudo">
+        <div class="conteudodiv">
+
+            <h3>Legenda da tabela:</h3>
+            <p>
+                <li><strong>Classificação:</strong> Ela segue a ordem das pessoas com os menores níveis de colesterol LDL para os maiores, ou seja, em ordem decrescente.</li>
+
+                <li><strong>Porcentagem de Variação:</strong> A porcentagem é sempre calculada com base no valor do primeiro registro, variando conforme o aumento ou redução em comparação a esse valor inicial.: <br>
+                &#128313 Neutro <br>
+                &#128314 Aumento <br>
+                🟢 Redução  
+                </li>
+                <li><strong>PDF:</strong> Link direto ao arquivo do exame comprovando os dados.</li>
+            
+            </p>
+
+        </div>
+        <div class="conteudodiv">
             <h3>Sobre o LDL</h3>
         <p>O colesterol LDL, conhecido como "colesterol ruim", pode acumular-se nas artérias, aumentando o risco de doenças cardiovasculares como ataques cardíacos e derrames. Controlar os níveis de LDL é essencial para prevenir esses problemas de saúde.</p>
         <h3>Alguns dos Problemas do Colesterol LDL Elevado</h3>
-        <p>
-            <li><strong>Aterosclerose:</strong>  A principal preocupação com níveis elevados de LDL é a aterosclerose, uma condição em que placas de gordura se acumulam nas paredes das artérias, causando estreitamento e rigidez. Isso pode levar a uma redução do fluxo sanguíneo para órgãos vitais, incluindo o coração e o cérebro.</li> <br>
-            
-               
-    
+            <p>
+                <li><strong>Aterosclerose:</strong>  A principal preocupação com níveis elevados de LDL é a aterosclerose, uma condição em que placas de gordura se acumulam nas paredes das artérias, causando estreitamento e rigidez. Isso pode levar a uma redução do fluxo sanguíneo para órgãos vitais, incluindo o coração e o cérebro.</li> <br>
 
-            <li><strong>Acidente Vascular Cerebral (AVC):</strong>  Placas de colesterol podem se romper e formar coágulos sanguíneos que podem bloquear o fluxo de sangue para o cérebro, resultando em um AVC.</li> <br>
-            
-            
-            <li><strong>Doença Arterial Periférica:</strong> LDL alto pode afetar as artérias das pernas e braços, levando a dor, problemas de circulação e, em casos graves, à necessidade de amputação.</li> <br>
+                <li><strong>Acidente Vascular Cerebral (AVC):</strong>  Placas de colesterol podem se romper e formar coágulos sanguíneos que podem bloquear o fluxo de sangue para o cérebro, resultando em um AVC.</li> <br>
+                
+                <li><strong>Doença Arterial Periférica:</strong> LDL alto pode afetar as artérias das pernas e braços, levando a dor, problemas de circulação e, em casos graves, à necessidade de amputação.</li> <br>
 
-            <li>
-                <strong>Doença Renal Crônica:</strong>
-                A aterosclerose das artérias renais pode reduzir o fluxo sanguíneo para os rins, levando à disfunção renal e, eventualmente, à doença renal crônica.
-            </li>
+                <li>
+                    <strong>Doença Renal Crônica:</strong>
+                    A aterosclerose das artérias renais pode reduzir o fluxo sanguíneo para os rins, levando à disfunção renal e, eventualmente, à doença renal crônica.
+                </li>
             
-        </p>
+            </p>
         </div>
     </section>   
     </div>
