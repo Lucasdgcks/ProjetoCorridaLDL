@@ -1,4 +1,4 @@
 Dados sobre HDL
-marcelo = 41.0
+marcelo = 41.0 -> 45.0
 lucas = 57.0 -> 47.0
 carla = 76.0

@@ -1,5 +1,0 @@
-lucas: 178.1
-marcelo: 90.5
-carla: 173.5
-gabriel: 196.0
-rafael: 210.0
